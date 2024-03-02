@@ -34,10 +34,10 @@ class TodoListItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(DateFormat('dd/MM/yyyy').format(todo.dateTime), style: TextStyle(fontSize: 12),),
+            Text(DateFormat('dd/MM/yyyy').format(todo.dateTime), style: const TextStyle(fontSize: 12),),
             Text(
               todo.title,
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
             ),
           ],
         ),
